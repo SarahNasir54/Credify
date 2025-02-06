@@ -14,4 +14,8 @@ We perform all the experiment on Google colab with python 3.11.11 installed. Ins
 # Experiments and Evaluation
 The proposed framework CREDIFY consists of three modules : passage retrieval , sentence selection and veracity prediction. We applied two types of Data Augmentation Conrastive Claim generation and Paraphrazing. The following sections describe the detail of modules for implementing experiment.
 
-1. Passage Retrieval and Varacity prediction: This folder consists of two jupyter notebooks, one is for passage retrievel where we used [`msmarco-distilbert-base-tas-b`](https://huggingface.co/sentence-transformers/msmarco-distilbert-base-tas-b) which is freely avialable on hugging face.
+1. Passage Retrieval and Varacity prediction: This folder consists of two jupyter notebooks, one is for passage retrievel where we used [`msmarco-distilbert-base-tas-b`](https://huggingface.co/sentence-transformers/msmarco-distilbert-base-tas-b) which is freely avialable on hugging face. For Veracity Prediction we used [`roberta-base`](https://huggingface.co/FacebookAI/roberta-base), we fine-tuned the model on our dataset and then used it for prediction.
+
+2. Data Augmentation: This folder consists of two jupyter notebooks, where we applied two types of data augmentation techniques Contrastive claim generation and Parapharasing. For parapharasing we used chatgpt's [`T5_base`](https://huggingface.co/humarin/chatgpt_paraphraser_on_T5_base) model.
+
+3. 5 fold cross validation: This folder consists of one jupyter notebook, where we applied 5 fold cross validation for better generalization. We also obtained time peformance.
