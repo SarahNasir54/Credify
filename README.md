@@ -18,4 +18,16 @@ The proposed framework CREDIFY consists of three modules : passage retrieval , s
 
 2. Data Augmentation: This folder consists of two jupyter notebooks, where we applied two types of data augmentation techniques Contrastive claim generation and Parapharasing. For parapharasing we used chatgpt's [`T5_base`](https://huggingface.co/humarin/chatgpt_paraphraser_on_T5_base) model.
 
-3. 5 fold cross validation: This folder consists of one jupyter notebook, where we applied 5 fold cross validation for better generalization. We also obtained time peformance.
+3. 5 fold cross validation: This folder consists of one jupyter notebook, where we applied 5 fold cross validation for better generalization. We also obtained time performance.
+
+If you find this code helpful please cite our paper:
+
+@article{nasir2025credify,
+  title={CREDIFY: contextualized retrieval of evidence for open-domain fact verification},
+  author={Nasir, Ayesha and Wasim, Muhammad and Nasir, Sarah},
+  journal={Knowledge and Information Systems},
+  pages={1--31},
+  year={2025},
+  publisher={Springer}
+}
+
