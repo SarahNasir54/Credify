@@ -22,6 +22,7 @@ The proposed framework CREDIFY consists of three modules : passage retrieval , s
 
 If you find this code helpful please cite our paper:
 
+```bibtex
 @article{nasir2025credify,
   title={CREDIFY: contextualized retrieval of evidence for open-domain fact verification},
   author={Nasir, Ayesha and Wasim, Muhammad and Nasir, Sarah},
